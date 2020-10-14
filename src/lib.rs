@@ -1,5 +1,5 @@
 pub use kurbo;
-use kurbo::{Point, Rect, Vec2, PathEl, BezPath, ParamCurve};
+use kurbo::{BezPath, ParamCurve, PathEl, Point, Rect};
 
 #[derive(Debug, Copy, Clone)]
 pub enum CubicApprox {
