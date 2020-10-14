@@ -1,0 +1,25 @@
+[package]
+name = "pathbreaker"
+version = "0.1.0"
+authors = ["msiglreith <m.siglreith@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Vector path splitting"
+documentation = "https://docs.rs/pathbreaker"
+repository = "https://github.com/norse-rs/pathbreaker"
+readme = "README.md"
+keywords = ["graphics"]
+categories = ["graphics"]
+exclude = [".github/*"]
+
+[dependencies]
+kurbo = "0.6"
+lyon_geom = "0.15"
+
+[package.metadata.docs.rs]
+targets = [
+    "aarch64-linux-android",
+    "armv7-linux-androideabi",
+    "i686-linux-android",
+    "x86_64-linux-android",
+]
